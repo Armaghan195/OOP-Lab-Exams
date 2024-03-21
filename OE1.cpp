@@ -118,18 +118,6 @@ public:
         }
     }
 };
-class Teacher {
-private:
-    int teacherID;
-    string name;
-    vector<Course*> coursesTaught;
-public:
-    Teacher(int id, string n) : teacherID(id), name(n) {}
-
-    void assignCourse(Course* course);
-    void removeCourse(Course* course);
-    void viewCourses();
-};
 
 
 
